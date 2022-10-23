@@ -85,6 +85,6 @@ function createCats(cats) {
   return div;
 }
 
-console.log(createCats(cats)); // why does this line need to be here for the innerHTML to show?
+createCats(cats);
 
 catcontainer.innerHTML = div;
